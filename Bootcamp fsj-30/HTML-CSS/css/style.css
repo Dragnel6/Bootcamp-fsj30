@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    background-color: brown;
+    background-image: url(../images/background-adare-restaurant.jpg);
+    background-size: cover;
+    
+}
+header{
+    text-align: center;
+    height: 20vh;
+}
+header .img-section{
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+}
+header .img-section img{
+    height: 10vh;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    margin: 0 auto;
+    /* margin-top: 5vh; */
+}
+header .navbar .navitem{
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+.main-container{
+   text-align: center;
+   margin-top: 5vh;
+}
+.main-container .main-text{
+    color: white;
+    font-family: Savate;
+    font-size: 1em;
+}
+.main-container .main-text h1{
+    font-size: 4em;
+    transition: 0.3s;
+}
+.main-container .main-text h1:hover{
+    text-shadow: 0.04em 0.04em blue;
+}
+.main-container .main-text article{
+    width: 40vw;
+    margin: 0 auto
+}
+.main-container .main-text article p{
+    color: aqua;
+    font-size: 1.2em;
+}
+.main-container .main-text article strong a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.04em 0.04em yellow;
+}
+.main-container .maps iframe{
+    max-width: 60vw;
+    max-height: 50vh;
+    border-radius: 10px;
+}

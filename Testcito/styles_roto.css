@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main-body{
+  background-color: #192c63;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0
+}
+
+.wraper {
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.logo-text {
+  font-size: 2.5em;
+}
+.logo-text span {
+  color: rgb(10,165,165);
+  text-shadow: 1px 1px 3px white;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0
+}
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  animation: 0.3s;
+}
+.nav-menu a:hover{
+  border-bottom: 2px solid #bb0b83;
+  color: #233a7a;
+   
+}
+
+.main-container {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 4rem;
+  justify-content: center;
+}
+.main-container .biografia{
+  width: 40vw;
+  margin-right: 100px;
+}
+
+.foto-container img {
+ background-size: cover;
+  width: 20vw;
+  border-radius: 10px;
+  transition: 0.5s;
+
+}
+
+.boton {
+  background-color: #bb0b83;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.typingg {
+  overflow: hidden;
+  border-right: 4px white;
+  animation: typingg 2s steps(25);
+}
+@keyframes typingg {
+  top {
+    width: 100%;
+  }
+}
+
+/* section .mis_proyectos{
+   display: flex;
+   justify-content: center;
+} */
+
+.grid-container{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.projectcard {
+  background-color: #233a7a;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 300px
+}
+.projectcard:hover{
+  transform: translateY(-5px);
+}
+.img-top {
+  width: 100%;
+  border-radius: 10px;
+}
+
+section#form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.enlaces {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formularioo {
+  width: 600px;
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  color: black;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.message {
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.footer-section{
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.bt-submit {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  color: #f8f9fa;
+}
+.redes-sociales a{
+  text-decoration: none;
+  color: azure;
+}
