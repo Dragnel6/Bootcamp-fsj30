@@ -1,0 +1,15 @@
+git init
+git config --global user.name "Jcarlos625" 
+git config --global user.email jeancmt79@gmail.com
+git status
+git add .  o = carpeta
+git commit -m "mensaje"
+git branch -M main
+git remote add origin "link de tu github"
+git push -u origin main --force
+git pull "para extraer cambios"
+git branch
+git branch -a"para ver las ramas y crear ramas"
+git checkout "para cambiar de ramas"
+git branch -M nomnbre/texto "para cambiar el nombre de la rama"
+git branch -d nombre/texto "para eliminar rama"
